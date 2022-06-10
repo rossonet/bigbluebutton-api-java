@@ -1,10 +1,16 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/rossonet/bigbluebutton-api-java)
+[![Test on master branch with Gradle](https://github.com/rossonet/bigbluebutton-api-java/actions/workflows/test-on-master-with-gradle.yml/badge.svg)](https://github.com/rossonet/bigbluebutton-api-java/actions/workflows/test-on-master-with-gradle.yml)
+[![Publish on Maven Central](https://github.com/rossonet/bigbluebutton-api-java/actions/workflows/publish-on-maven.yml/badge.svg)](https://github.com/rossonet/bigbluebutton-api-java/actions/workflows/publish-on-maven.yml)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/cb8ed4b533ca464cb5ef6bf8caaf37e8)](https://www.codacy.com/gh/rossonet/bigbluebutton-api-java/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=rossonet/bigbluebutton-api-java&amp;utm_campaign=Badge_Grade)
 
-Special note:  
-1. This project used Lombok library, if you want to deploy this project, make sure you have Lombok installed. To install, follow the following steps:  
-	- download from https://projectlombok.org/download
-	- go to the location where the Lombar.jar was downloaded, and run "java -jar lombok.jar", change the jar file name to the name of the lombok jar file that you downloaded
-	- after you run the previous step, a window should appear, brownse to your editor location (for eclipse, it's where eclipse.exe is located)
-	- click install
-	- launch Eclipse (or other IDE)
-	- add the zomlok library to your project (right click on the properties -> Java Build Path -> Libraries -> add Extenal JARs -> select the lombok jar file that you just downloaded -> Apply and Close
+# Big Blue Button API Java
+
+original project: [bigbluebutton-api-java](https://github.com/bigbluebutton/bigbluebutton-api-java)
+
+
+### credit
+
+![alt text](https://app.rossonet.net/wp-content/uploads/2021/10/rossonet-logo_280_115.png "Rossonet")
+
+[https://www.rossonet.net](https://www.rossonet.net)
 

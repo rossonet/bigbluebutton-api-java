@@ -20,7 +20,7 @@ public interface BBBAPI {
 
 	/**
 	 * Allow user to create meeting
-	 * 
+	 *
 	 * @return BBBMeeting object on success, on failure, BBBException is thrown
 	 * @throws BBBException
 	 */

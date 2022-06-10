@@ -583,7 +583,7 @@ public class BaseBBBAPI implements BBBAPI {
 					&& (node.getChildNodes().item(0).getNodeType() == org.w3c.dom.Node.TEXT_NODE
 							|| node.getChildNodes().item(0).getNodeType() == org.w3c.dom.Node.CDATA_SECTION_NODE)) {
 				final String nodeValue = node.getTextContent();
-				if (nodeName == "image" && node.getAttributes() != null) {
+				if (nodeName.equals("image") && node.getAttributes() != null) {
 					final Map<String, String> imageMap = new HashMap<String, String>();
 					final Node heightAttr = node.getAttributes().getNamedItem("height");
 					final Node widthAttr = node.getAttributes().getNamedItem("width");
@@ -621,7 +621,7 @@ public class BaseBBBAPI implements BBBAPI {
 						final Node n = node.getChildNodes().item(c);
 						list.add(processNode(n));
 					}
-					if (nodeName == "preview") {
+					if (nodeName.equals("preview")) {
 						final Node n = node.getChildNodes().item(0);
 						map.put(nodeName, new ArrayList<Object>(processNode(n).values()));
 					} else {

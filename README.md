@@ -11,11 +11,22 @@
 
 [Big Blue Button documentation](https://docs.bigbluebutton.org/dev/api.html)
 
-### get API salt and URL
+### how to get API salt and URL
+
+```
+$ bbb-conf --secret
 
 
+    URL: https://yyy.xxxxxx.com/bigbluebutton/
+    Secret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
+    Link to the API-Mate:
+    https://mconf.github.io/api-mate/#server=https://yyy.xxxxxx.com/bigbluebutton/&sharedSecret=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
 
+### code examples
+
+[Project test class](https://github.com/rossonet/bigbluebutton-api-java/blob/master/src/test/java/net/rossonet/bbb/examples/BBBApiTests.java)
 
 ## credit
 

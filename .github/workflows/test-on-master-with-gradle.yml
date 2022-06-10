@@ -20,6 +20,8 @@ jobs:
     - name: Clone sub repos
       env:
         GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
+        BBB_KEY: ${{ secrets.BBB_KEY }}
+        BBB_URL: ${{ secrets.BBB_URL }}
       run: |
         eval "$(ssh-agent -s)"
         git submodule init

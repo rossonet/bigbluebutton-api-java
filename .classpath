@@ -21,6 +21,12 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.json/json/20211205/da7389375f5fe45eda82bc552e77513057811748/json-20211205-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.json/json/20211205/47032dcf2f69880f07dab3dc60b4b0ad97318308/json-20211205.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.json/json/20211205/7ef9457afae7decccc4317a53cbce5b87c283487/json-20211205-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/843bc57fd042051e994846da8167bb7ca677a6d/commons-codec-1.15-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d/commons-codec-1.15.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/a4bffaa9fcb2010973135106d6a9aac351336c47/commons-codec-1.15-javadoc.jar!/"/>

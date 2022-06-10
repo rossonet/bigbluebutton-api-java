@@ -5,10 +5,19 @@
 
 # Big Blue Button API Java
 
-original project: [bigbluebutton-api-java](https://github.com/bigbluebutton/bigbluebutton-api-java)
+[original project bigbluebutton-api-java](https://github.com/bigbluebutton/bigbluebutton-api-java)
+
+## documentation
+
+[Big Blue Button documentation](https://docs.bigbluebutton.org/dev/api.html)
+
+### get API salt and URL
 
 
-### credit
+
+
+
+## credit
 
 ![alt text](https://app.rossonet.net/wp-content/uploads/2021/10/rossonet-logo_280_115.png "Rossonet")
 

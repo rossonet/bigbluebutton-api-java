@@ -97,8 +97,8 @@ publishing {
         url = 'https://www.rossonet.net/'
         licenses {
           license {
-            name = 'GNU GENERAL PUBLIC LICENSE version 3'
-            url = 'https://www.gnu.org/licenses/gpl-3.0.html'
+            name = 'Apache-2.0 license'
+            url = 'https://www.apache.org/licenses/LICENSE-2.0'
           }
         }
         developers {

@@ -5,11 +5,11 @@
 
 # Big Blue Button API Java
 
-[original project bigbluebutton-api-java](https://github.com/bigbluebutton/bigbluebutton-api-java)
+[forked from https://github.com/bigbluebutton/bigbluebutton-api-java](https://github.com/bigbluebutton/bigbluebutton-api-java)
 
 ## documentation
 
-[Big Blue Button documentation](https://docs.bigbluebutton.org/dev/api.html)
+[Big Blue Button API documentation](https://docs.bigbluebutton.org/dev/api.html)
 
 ### how to get API salt and URL
 
@@ -24,9 +24,35 @@ $ bbb-conf --secret
     https://mconf.github.io/api-mate/#server=https://yyy.xxxxxx.com/bigbluebutton/&sharedSecret=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
+### Maven repository
+
+[https://mvnrepository.com/artifact/net.rossonet/](https://mvnrepository.com/artifact/net.rossonet/)
+
+#### use this library with Maven
+
+```
+<dependency>
+  <groupId>net.rossonet.bbb</groupId>
+  <artifactId>bigbluebutton-api-java</artifactId>
+  <version>0.1.2</version>
+</dependency>
+```
+
+#### use this library with Gradle
+
+```
+implementation 'net.rossonet.bbb:bigbluebutton-api-java:0.1.2'
+```
+
 ### code examples
 
-[Project test class](https://github.com/rossonet/bigbluebutton-api-java/blob/master/src/test/java/net/rossonet/bbb/examples/BBBApiTests.java)
+```
+final BBBAPI client = new BaseBBBAPI(<String url of bbb server>, <String Secret Key>);
+final String version = client.getAPIVersion();
+System.out.println("Server version: " + version);
+```
+
+[test class with all examples](https://github.com/rossonet/bigbluebutton-api-java/blob/master/src/test/java/net/rossonet/bbb/examples/BBBApiTests.java)
 
 ## credit
 
